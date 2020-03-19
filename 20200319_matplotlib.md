@@ -37,4 +37,4 @@ ax1.boxplot(people)
 
 ```
 
-![BOXPLOT](/matplotlib/page/boxplot.png)
+![BOXPLOT](/page/boxplot.png)

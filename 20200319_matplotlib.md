@@ -1,5 +1,5 @@
 
-
+-->plt.plot() plt.legend()
 ```
 import matplotlib.pyplot as plt
  

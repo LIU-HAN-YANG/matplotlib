@@ -1,5 +1,5 @@
 
--->plot([x], y, [fmt], *, data=None, **kwargs) plt.legend()
+顏色改成紅色 線條改成虛線-->plot([x], y, [fmt], *, data=None, **kwargs) plt.legend()
 ```
 import matplotlib.pyplot as plt
  
@@ -16,3 +16,6 @@ plt.title("Line Graph Example")
 plt.legend(loc='upper left')
 plt.show()
 ```
+
+
+

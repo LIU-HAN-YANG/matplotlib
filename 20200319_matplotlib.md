@@ -19,3 +19,4 @@ plt.show()
 
 
 
+![BOXPLOT](/matpllotlib/page/boxplot.png)

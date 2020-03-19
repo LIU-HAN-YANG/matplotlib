@@ -17,6 +17,24 @@ plt.legend(loc='upper left')
 plt.show()
 ```
 
+boxplot箱形圖 (Box plot):使用matplotlib.pyplot.boxplot
 
+```
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Fixing random state for reproducibility
+np.random.seed(19680801)
+people=[178 , 164 , 159 , 162 , 182 , 
+             179 ,  166 , 168 , 173 , 165]
+
+fig1, ax1 = plt.subplots()
+
+plt.ylabel("hight")
+ax1.set_title('people_hight')
+ax1.boxplot(people)
+
+
+```
 
 ![BOXPLOT](/matplotlib/page/boxplot.png)

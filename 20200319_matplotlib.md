@@ -7,8 +7,8 @@ x  = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 y1 = [1, 3, 5, 3, 1, 3, 5, 3, 1]
 y2 = [2, 4, 6, 4, 2, 4, 6, 4, 2]
 #繪圖
-plt.plot(x, y1, label="line L")
-plt.plot(x, y2,'r--', label="line H")#設定紅色線條為虛線
+plt.plot(x, y1, label="line L") # 將X、Y內容輸入，並設定顏色為紅色，線條為虛線
+plt.plot(x, y2,'r--', label="line H") # 將X、Y內容輸入，並設定顏色為紅色，線條為虛線
 plt.plot()
 
 #設定XY軸標籤
